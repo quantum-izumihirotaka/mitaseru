@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- OGP-->
+    <meta property="og:title" content="「mitaseru - ミタセル - 」抽選プレゼントキャンペーン！" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://food-campaign.qntm.jp/" />
+    <meta property="og:image" content="https://food-campaign.qntm.jp/ogp/mitaseru_ogp_1200_B.png" />
+    <meta property="og:site_name"  content="mitaseru" />
+    <meta property="og:description" content="「mitaseruは、いつでもほんのひと手間で、名店の味が食卓を満たすサービスです。" />
+    <meta property="fb:app_id" content="999278714085665" />
+    <title>mitaseru</title>
+    <style>
+        .float-button__wrap {
+            position: fixed;
+            z-index: 20;
+            bottom: 1px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+            width: auto;
+            min-width: 350px;
+            opacity: 1;
+        }
+        img {
+            width:auto;
+            max-width: 100%;
+            min-width: 50%;
+            height: auto;
+            min-height: 60px;
+        }
+        iframe[src^="https://docs.google.com/forms/d/e"]{
+            width:100%;
+        } 
+    </style>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5MMDRNM');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Microsoft Clarity-->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "cqfzps73w4");
+    </script>
+    <!-- googleアナリティクス-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2P6797M5Z4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-2P6797M5Z4');
+    </script>
+    <!-- facebook SDK-->
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '999278714085665',
+            xfbml      : true,
+            version    : 'v14.0'
+          });
+          FB.AppEvents.logPageView();
+        };
+      
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+    <!-- ボタン押下時の動作-->
+    <script>
+        $('#page-link a[href*="#"]').click(function () {
+        var elmHash = $(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
+        var pos = $(elmHash).offset().top;  //idの上部の距離を取得
+        $('body,html').animate({scrollTop: pos}, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
+        return false;
+        });
+    </script>
+    </script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MMDRNM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--フローティングボタン-->
+    <div id="button" class="float-button__wrap" >
+        <img alt="ボタン画像" src="btn_close.png"></a>
+    </div>
+    <div style="text-align: center" >
+        <a href="https://www.mitsuifudosan.co.jp">
+            <img alt="ヘッダー画像" src="img_mf_logo_0802.jpg">
+        </a>
+        <p>
+            <img alt="画像1" src="mitaseru SP - ALL contents.jpg">
+        </p>
+        <p>
+            <section class="area" id="image2">
+            <img alt="画像2" src="mitaseru SP - CP 0805.jpg">
+        </p>
+        <p>
+            <section class="area" id="iframe">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWIAt5XlwmD0DFMoPVJQfJo5AFi1_O4LbUUAjcFPGVwP7PpQ/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        </p>
+        <p>
+            <img alt="画像3" src="mitaseru SP - ALL contents JP.jpg">
+        </p>
+    </div> 
+</body>
+</html>
